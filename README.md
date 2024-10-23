@@ -10,14 +10,14 @@ Instalación de un Drupal 10 limpio, un ejemplo para hacerlo es el siguiente (co
 - ddev composer require drush/drush
 - ddev drush site:install --account-name=admin --account-pass=admin -y
 - ddev launch
- 
+
 ## Instalación de los siguientes módulos y activación de estos (seguir este orden):
 
 - Gin Toolbar
 - Admin Toolbar (Instalar Admin Toolbar y Admin Extra Tools)
-- Gin 
-- Gin LB 
-- Gin Login 
-- Layout builder styles 
-- Layout builder restrictions 
+- Gin
+- Gin LB
+- Gin Login
+- Layout builder styles
+- Layout builder restrictions
 - Bootstrap Barrio 5 Theme**
