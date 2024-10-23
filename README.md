@@ -21,3 +21,12 @@ Instalación de un Drupal 10 limpio, un ejemplo para hacerlo es el siguiente (co
 - Layout builder styles
 - Layout builder restrictions
 - Bootstrap Barrio 5 Theme**
+
+## Instalación a través de los archivos del repo
+
+- git clone del repositorio
+- ddev start
+- ddev composer install
+- ddev import-db --database db --file=backup-taller-front.sql
+- ddev drush cr
+- ddev drush cim
