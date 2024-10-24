@@ -1,0 +1,25 @@
+uuid: 48b41e78-39d9-445f-9022-5f6eb78ed9ec
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - taller_theme
+_core:
+  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
+id: taller_theme_site_branding
+theme: taller_theme
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

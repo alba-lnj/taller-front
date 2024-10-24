@@ -1,0 +1,23 @@
+uuid: 19ebca8c-9ec9-4eca-ac59-72326c69abed
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: aspect_ratio_16_9
+label: 'Aspect Ratio 16/9'
+effects:
+  5bacea29-e34f-4441-b9c8-6b56af0865c0:
+    uuid: 5bacea29-e34f-4441-b9c8-6b56af0865c0
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 1920
+      height: 480
+      crop_type: focal_point
+  bd6ea48d-0aca-4478-b864-825de55f3eb9:
+    uuid: bd6ea48d-0aca-4478-b864-825de55f3eb9
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp

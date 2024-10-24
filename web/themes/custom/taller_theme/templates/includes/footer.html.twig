@@ -1,0 +1,11 @@
+<footer class="site-footer">
+  {% block footer %}
+    <div class="{{ container }}">
+      {% if page.footer %}
+        <div class="site-footer__top clearfix">
+          {{ page.footer }}
+        </div>
+      {% endif %}
+    </div>
+  {% endblock %}
+</footer>

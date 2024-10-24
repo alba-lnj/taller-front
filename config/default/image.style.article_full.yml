@@ -1,0 +1,23 @@
+uuid: 77f4a174-a299-4f11-a88c-787fb87342af
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: article_full
+label: 'Article Full (410x620)'
+effects:
+  a5f221f5-7031-4e2f-92a4-0ffcf192f2ec:
+    uuid: a5f221f5-7031-4e2f-92a4-0ffcf192f2ec
+    id: image_convert
+    weight: -9
+    data:
+      extension: webp
+  c12c5388-a4bf-4f12-a13d-c2e96ab384c0:
+    uuid: c12c5388-a4bf-4f12-a13d-c2e96ab384c0
+    id: focal_point_scale_and_crop
+    weight: -10
+    data:
+      width: 410
+      height: 620
+      crop_type: focal_point

@@ -1,0 +1,22 @@
+uuid: 6febe115-01cf-42ff-b072-7ae11a464356
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - taller_theme
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: taller_theme_powered
+theme: taller_theme
+region: header
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

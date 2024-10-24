@@ -114,7 +114,7 @@ docker-compose.override.yml
 /mariadb-init
 /postgres-init
 **/*.orig
-**/*.sql
+
 **/*.gz
 **/*.zip
 **/*.rar

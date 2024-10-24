@@ -1,0 +1,7 @@
+.menu--main .navbar-nav {
+  display: flex;
+  gap: 16px;
+}
+.menu--main .navbar-nav a {
+  font-weight: bold;
+}

@@ -1,0 +1,22 @@
+uuid: 94260cb8-45e0-4fb9-975d-aa7e661cee98
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - taller_theme
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: taller_theme_help
+theme: taller_theme
+region: header
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

@@ -1,0 +1,17 @@
+name: Taller Theme
+type: theme
+description: 'A flexible Booststrap subtheme, with many regions and a responsive, mobile-first layout.'
+core_version_requirement: ^10.3 || ^11.0
+base theme: bootstrap_barrio
+
+libraries:
+  - taller_theme/global-styling
+
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  highlighted: Highlighted
+  title_page: 'Title page'
+  content: Content
+  footer: 'Footer'
+  none: None

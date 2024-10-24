@@ -1,0 +1,10 @@
+global-styling:
+  version: VERSION
+  css:
+    base:
+      css/style.css: {}
+
+menu__main:
+  css:
+    layout:
+      css/layout/menu.css: {}

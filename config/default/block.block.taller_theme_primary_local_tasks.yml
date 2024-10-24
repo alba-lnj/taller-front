@@ -1,0 +1,22 @@
+uuid: 69049c9a-1847-496c-a49d-3363a7169564
+langcode: en
+status: true
+dependencies:
+  theme:
+    - taller_theme
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: taller_theme_primary_local_tasks
+theme: taller_theme
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

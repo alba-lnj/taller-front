@@ -1,0 +1,22 @@
+uuid: ecaacc03-f731-47f1-85ea-3079d9453f9d
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - taller_theme
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: taller_theme_breadcrumbs
+theme: taller_theme
+region: header
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }
