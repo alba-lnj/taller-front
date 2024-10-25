@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * Functions to support theming in the SASS Starterkit subtheme.
+ */
+
+/**
+ * Implements template_preprocess_node__BUNDLE__VIEWMODE().
+ */
+function taller_theme_preprocess_menu__main(&$variables) {
+  $variables['#attached']['library'][] = 'taller_theme/menu';
+}
+
+function taller_theme_preprocess_block__inline_block__card(&$variables) {
+  $variables['#attached']['library'][] = 'taller_theme/card';
+}
