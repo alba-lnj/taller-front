@@ -1,0 +1,17 @@
+name: Taller theme
+type: theme
+description: 'Basic structure for a Bootstrap Barrio SubTheme.'
+core: 8.x
+core_version_requirement: ^8 || ^9 || ^10
+base theme: bootstrap_barrio
+
+libraries:
+  - taller_theme/global
+
+regions:
+  header: Header
+  title_page: 'Title Page'
+  primary_menu: 'Primary menu'
+  highlighted: Highlighted
+  content: Content
+  footer: 'Footer'
