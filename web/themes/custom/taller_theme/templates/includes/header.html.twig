@@ -1,7 +1,8 @@
 <header id="header" class="header" role="banner" aria-label="{{ 'Site header'|t}}">
   {% block head %}
     {% if page.header or page.primary_menu %}
-      <nav{{ navbar_attributes }}>
+{#      {{ navbar_attributes }}#}
+      <nav id="navbar-main" class="navbar bg-secondary navbar-expand-xl">
         {% if container_navbar %}
         <div class="container">
           {% endif %}

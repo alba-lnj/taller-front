@@ -1,3 +1,20 @@
+.bg-secondary {
+  --bs-navbar-color: white;
+  --bs-nav-link-color: white;
+  color: white;
+}
+
+.menu--main .navbar-nav {
+  --bs-navbar-color: white;
+  --bs-nav-link-color: white;
+}
+
+.page {
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto auto 1fr auto;
+}
+
 .navbar-brand img {
   max-width: 120px;
 }
@@ -6,5 +23,4 @@ img {
   height: auto;
   max-width: 100%;
   object-fit: cover;
-
 }
